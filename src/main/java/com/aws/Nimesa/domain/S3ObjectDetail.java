@@ -16,4 +16,10 @@ public class S3ObjectDetail {
     private String jobId;
     private String bucketName;
     private String objectKey;
+    
+    public S3ObjectDetail(String jobId, String bucketName, String objectKey) {
+        this.jobId = jobId;
+        this.bucketName = bucketName;
+        this.objectKey = objectKey;
+    }
 }
